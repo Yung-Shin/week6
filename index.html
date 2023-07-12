@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href='./assets/style.css'>
+      <title>Weather Dashboard</title>
+   </head>
+  
+   <body>
+      <header class="heading">Weather Dashboard</header>
+      <main id='container' class="container">
+         <div class="row">
+            <div class="col1">
+               <div id='search-area'>
+                  <h1 class='h1'>Search for a City:</h1>
+                  <form id='search-city'>
+                     <input name='city' type="text" placeholder="Enter a City Name" id='city' autofocus='true'
+                        class='city-input' />
+                     <button type="submit" id='search-button' class='button'>Search City</button>
+                  </form>
+                  <hr>
+                  </hr>
+                  <div id="search-history"></div>
+               </div>
+            </div>
+            <div class="col2">
+               <div id='five-day' class='row spacebetween'></div>
+            </div>
+         </div>
+      </main>
+      <script
+         src="https://code.jquery.com/jquery-3.6.4.min.js"
+         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+         crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+         integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+         crossorigin="anonymous"
+         ></script>
+      <script src='./assets/script.js'></script>
+   </body>
+</html>
