@@ -1,12 +1,15 @@
 ## Weather Dashboard
   
 ## Description
-This Work Day Scheduler application allows users to write and monitor their daily work schedules. The each time block for each hour's schedule reflects
-live-time powered by Day.js, and displays different colored background. The past hour blocks are displayed in grey, the present hour block is displayed in red,
-and upcoming future hour blocks are displayed in green. The application uses local storage, and users schedules are saved and accessible even after users refresh the page. 
+Weather Dashboard is an application that allows users to search any cities around the world of users' choice and get current weather information
+and future forecasts for 5 days. Whether users are planning a trip to a close region or far region, it is essential for travelers to have 
+access to weather information, so travelers can prepare their trip accordingly. The application not only provides temperature of the chosen city but
+also provides city's wind condition and humidity. Furthermore, the application stores user's search history, so a user can quickly re-access the city
+if he/she wants to check the current weather again. 
 
 ## Usage
-The application is simple work schedule organizer, so users can use this application to quickly add schedules and monitor them throughout the day in a simple manner. 
+The application provides a simple and convenient way for users to check current weather condition before making a trip. 
+Also, the application reflects real time weather condition of a chosen city, so it provides time sensitive information to users.
 
 ## Technologies Used
 HTML,
@@ -37,7 +40,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Sscreenshot
-<img width="1263" alt="week5 1" src="https://github.com/Yung-Shin/week5_workday_scheduler/assets/123918265/6a6e82b0-4792-405d-9765-492e6114b958">
+## Screenshots
+<img width="1233" alt="week6 1" src="https://github.com/Yung-Shin/week6_weatherDashboard/assets/123918265/41e0d562-7802-4da0-8aa6-b5a0d2811c89">
 
-<img width="939" alt="week5 2" src="https://github.com/Yung-Shin/week5_workday_scheduler/assets/123918265/e674cc00-7720-46b5-95b7-8f7680666fb4">
+<img width="1280" alt="week6 2" src="https://github.com/Yung-Shin/week6_weatherDashboard/assets/123918265/6fa359fb-5032-43f1-93be-8746f168b40d">
+
+<img width="1280" alt="week6 3" src="https://github.com/Yung-Shin/week6_weatherDashboard/assets/123918265/08f99a9c-5bf5-465e-b31e-4e6f90f1392a">
+
+<img width="1234" alt="week6 4" src="https://github.com/Yung-Shin/week6_weatherDashboard/assets/123918265/1668f9ea-ddaa-4857-893c-958660fc420c">
+
+
+## Github URL:
+https://github.com/Yung-Shin/week6_weatherDashboard
+
+## Deployed Live URL:
+https://yung-shin.github.io/week6_weatherDashboard/
